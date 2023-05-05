@@ -23,8 +23,31 @@ p{
     font-size: small;
 }
 
-.main{
+.main-text{
     text-align: center;
-    padding: 25px;
 }
 
+.main{
+    padding: 10px;
+}
+
+
+.subs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: aliceblue;
+    padding: 0;
+    width: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.subs .option{
+    margin-top: 20px;
+    margin: auto;
+}
+
+.subs .img{
+    margin-top: 10px;
+    margin: auto;
+}
